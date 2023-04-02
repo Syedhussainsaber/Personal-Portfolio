@@ -128,12 +128,12 @@ function App() {
     justify-content: center;
     align-items: center;
   `
-  const Profile = styled.img`
-    width: 200px;
-    border: solid white 3px;
-    border-radius: 100%;
-    margin-top: -150px;
-  `
+  // const Profile = styled.img`
+  //   width: 200px;
+  //   border: solid white 3px;
+  //   border-radius: 100%;
+  //   margin-top: -150px;
+  // `
   function hideMenuBtn() {
     setshowMenuBtn(false)
   }
@@ -170,7 +170,9 @@ function App() {
               )}
               {/* {<Profile src="./my.png" alt="Profile" />} */}
 
-              <Styled>Hi 👋🏻 I'm Syed Hussain Saber</Styled>
+              <Styled>
+                Hi <span>👋🏻</span> I'm Syed Hussain Saber
+              </Styled>
               <Text>
                 <span>I am a</span>
                 <Typewriter

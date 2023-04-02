@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
-import { PDFDocument } from 'pdf-lib'
 
 const ContactCon = styled.div`
   background-color: rgb(30, 0, 60);

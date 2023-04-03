@@ -9,13 +9,16 @@ const PortfolioSec = styled.div`
   font-size: 1.3em;
   position: absolute;
   top: 1380px;
-
+  overflow-x: hidden;
   right: 0;
   padding: 10px;
   padding-bottom: 35px;
   @media (max-width: 640px) {
     width: 100%;
-    top: 1455px;
+    top: 1462px;
+  }
+  @media (min-width: 592px) and (max-width: 640px) {
+    top: 1485px;
   }
 `
 const PortfolioCon = styled.h1`
@@ -77,7 +80,7 @@ const Portfolio = () => {
           <Flexrow>
             <Card
               onClick={() =>
-                window != undefined
+                window !== undefined
                   ? window.open('https://recipe-app--syedhussainsabe.repl.co/')
                   : ''
               }
@@ -88,7 +91,9 @@ const Portfolio = () => {
 
             <Card
               onClick={() =>
-                window != undefined ? window.open('https://kba.vercel.app') : ''
+                window !== undefined
+                  ? window.open('https://kba.vercel.app')
+                  : ''
               }
             >
               <h3>Crypto Token Website</h3>
@@ -97,7 +102,7 @@ const Portfolio = () => {
 
             <Card
               onClick={() =>
-                window != undefined
+                window !== undefined
                   ? window.open(
                       'https://words-guesser-game--syedhussainsabe.repl.co/',
                     )
@@ -110,7 +115,7 @@ const Portfolio = () => {
 
             <Card
               onClick={() =>
-                window != undefined
+                window !== undefined
                   ? window.open('https://quiz-app-1--syedhussainsabe.repl.co/')
                   : ''
               }
@@ -121,7 +126,7 @@ const Portfolio = () => {
 
             <Card
               onClick={() =>
-                window != undefined
+                window !== undefined
                   ? window.open(
                       'https://calculater-using-htmlcsssjs--syedhussainsabe.repl.co/',
                     )
@@ -134,7 +139,7 @@ const Portfolio = () => {
 
             <Card
               onClick={() =>
-                window != undefined
+                window !== undefined
                   ? window.open(
                       'https://temperature-converter--syedhussainsabe.repl.co/',
                     )
@@ -147,7 +152,7 @@ const Portfolio = () => {
 
             <Card
               onClick={() =>
-                window != undefined
+                window !== undefined
                   ? window.open(
                       'https://palindrome-checker--syedhussainsabe.repl.co/',
                     )

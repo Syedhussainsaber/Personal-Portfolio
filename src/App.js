@@ -11,6 +11,7 @@ import About from './Components/About'
 import Portfolio from './Components/Portfolio'
 import Resume from './Components/Resume'
 import Contact from './Components/Contact'
+import Footer from './Components/Footer'
 
 import React, { useEffect, useState } from 'react'
 function App() {
@@ -85,7 +86,7 @@ function App() {
     width: 85.9vw;
     height: 100vh;
     position: absolute;
-
+    overflow-x: hidden;
     top: 0px;
     right: 0px;
     @media (max-width: 1100px) {
@@ -196,6 +197,7 @@ function App() {
       <Portfolio />
       <Resume />
       <Contact />
+      <Footer />
     </>
   )
 }

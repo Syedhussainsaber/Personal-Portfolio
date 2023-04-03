@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
+import { BsLinkedin, BsGithub, BsTwitter, BsDiscord } from 'react-icons/bs'
 
 const ContactCon = styled.div`
   background-color: rgb(30, 0, 60);
@@ -19,7 +20,10 @@ const ContactCon = styled.div`
   }
   @media (max-width: 640px) {
     width: 100%;
-    top: 4152px;
+    top: 4168px;
+  }
+  @media (min-width: 592px) and (max-width: 640px) {
+    top: 3220px;
   }
 `
 const Flexcol = styled.div`
@@ -110,10 +114,56 @@ function Contact() {
       alert('Pls Fill the Form')
     }
   }
+  const Flexrow = styled.div`
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+
+    .social {
+      cursor: pointer;
+      width: 100%;
+      color: rgb(30, 500, 500);
+      margin: 15px 5px;
+      font-size: 1.5em;
+      &:hover {
+        color: gold;
+      }
+    }
+  `
+  const handleLinkedin = () => {
+    if (window !== undefined) {
+      window.open('https://www.linkedin.com/in/syed-hussain-saber-096b52229/')
+    }
+  }
+
+  const handleGithub = () => {
+    if (window !== undefined) {
+      window.open('https://github.com/Syedhussainsaber')
+    }
+  }
+
+  const handleTwitter = () => {
+    if (window !== undefined) {
+      window.open('https://twitter.com/syedhussain8888')
+    }
+  }
 
   return (
     <>
       <ContactCon id="contact">
+        <h2>
+          Lets Connect <span>🤝</span>
+        </h2>
+
+        <Flexrow>
+          <BsLinkedin className="social" onClick={handleLinkedin} />
+
+          <BsGithub className="social" onClick={handleGithub} />
+
+          <BsTwitter className="social" onClick={handleTwitter} />
+        </Flexrow>
+
         <h2>Contact Me</h2>
 
         <form onSubmit={handleSubmit}>

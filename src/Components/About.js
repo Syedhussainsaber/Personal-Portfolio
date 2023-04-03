@@ -7,23 +7,26 @@ const AboutSec = styled.div`
   font-size: 2em;
   background-color: rgba(0, 0, 0, 0.9);
   position: absolute;
+  overflow-x: hidden;
   top: 800px;
   text-align: center;
-  width: 87.5vw;
+  width: 86.5vw;
   right: 0px;
-
+  padding-bottom: 30px;
   @media (max-width: 640px) {
     top: 750px;
     width: 100%;
-    padding-bottom: 15px;
+    padding-bottom: 30px;
+  }
+  @media (min-width: 500px) {
+    margin-bottom: 50px;
   }
 `
 const Flex = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
-
   @media (max-width: 750px) {
     flex-direction: column-reverse;
     flex-wrap: wrap;
@@ -37,13 +40,14 @@ const Heading = styled.h2`
 `
 const AboutPara = styled.div`
   color: white;
-  width: 60%;
+  width: 80%;
   padding: 10px;
   font-family: mono;
   p {
     width: 95%;
     margin: 10px;
     text-align: center;
+    line-height: 1.3;
   }
   .fade-in-right {
     opacity: 0;
@@ -70,6 +74,11 @@ const AboutPara = styled.div`
       line-height: 1.4;
       text-align: center;
       font-size: 0.9em;
+    }
+  }
+  @media (min-width: 500px) {
+    p {
+      width: 75%;
     }
   }
 `

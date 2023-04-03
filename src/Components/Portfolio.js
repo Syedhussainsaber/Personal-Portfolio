@@ -15,7 +15,7 @@ const PortfolioSec = styled.div`
   padding-bottom: 35px;
   @media (max-width: 640px) {
     width: 100%;
-    top: 1440px;
+    top: 1450px;
   }
 `
 const PortfolioCon = styled.h1`
@@ -42,6 +42,19 @@ const Card = styled.div`
   border-radius: 10px;
   margin: 25px;
   cursor: pointer;
+  h3 {
+    text-align: center;
+    margin: -8px 0px 10px 0px;
+    line-height: 1.25;
+  }
+  img {
+    width: 200px;
+    margin-top: 6px;
+    border-radius: 10px;
+  }
+  &:hover {
+    background-color: rgb(30, 10, 100);
+  }
 `
 const Flexrow = styled.div`
   display: flex;
@@ -62,48 +75,87 @@ const Portfolio = () => {
         <Flexcol>
           <PortfolioCon>My Portfolio</PortfolioCon>
           <Flexrow>
-            <Card>
-              <h3>Modern NFT Marketplace</h3>
-              <p>
-                This is Decentralised marketplace, where anyone can list, sell,
-                buy or can update their NFTs
-              </p>
-            </Card>
-            <Card>
-              <h3>Modern NFT Marketplace</h3>
-              <p>
-                This is Decentralised marketplace, where anyone can list, sell,
-                buy or can update their NFTs
-              </p>
-            </Card>
-            <Card>
-              <h3>Modern NFT Marketplace</h3>
-              <p>
-                This is Decentralised marketplace, where anyone can list, sell,
-                buy or can update their NFTs
-              </p>
-            </Card>
-            <Card>
-              <h3>Modern NFT Marketplace</h3>
-              <p>
-                This is Decentralised marketplace, where anyone can list, sell,
-                buy or can update their NFTs
-              </p>
-            </Card>
-            <Card>
-              <h3>Modern NFT Marketplace</h3>
-              <p>
-                This is Decentralised marketplace, where anyone can list, sell,
-                buy or can update their NFTs
-              </p>
+            <Card
+              onClick={() =>
+                window != undefined
+                  ? window.open('https://recipe-app--syedhussainsabe.repl.co/')
+                  : ''
+              }
+            >
+              <h3>Recipe App</h3>
+              <img src="./recipe.jpeg" alt="Recipe App" />
             </Card>
 
-            <Card>
-              <h3>Modern NFT Marketplace</h3>
-              <p>
-                This is Decentralised marketplace, where anyone can list, sell,
-                buy or can update their NFTs
-              </p>
+            <Card
+              onClick={() =>
+                window != undefined ? window.open('https://kba.vercel.app') : ''
+              }
+            >
+              <h3>Crypto Token Website</h3>
+              <img src="./kba.jpeg" alt="KBA Website" />
+            </Card>
+
+            <Card
+              onClick={() =>
+                window != undefined
+                  ? window.open(
+                      'https://words-guesser-game--syedhussainsabe.repl.co/',
+                    )
+                  : ''
+              }
+            >
+              <h3>Word Guesser</h3>
+              <img src="./wordGuesser.jpeg" alt="Word Guesser" />
+            </Card>
+
+            <Card
+              onClick={() =>
+                window != undefined
+                  ? window.open('https://quiz-app-1--syedhussainsabe.repl.co/')
+                  : ''
+              }
+            >
+              <h3>Quiz App</h3>
+              <img src="./quiz.jpeg" alt="Quiz App" />
+            </Card>
+
+            <Card
+              onClick={() =>
+                window != undefined
+                  ? window.open(
+                      'https://calculater-using-htmlcsssjs--syedhussainsabe.repl.co/',
+                    )
+                  : ''
+              }
+            >
+              <h3>Calculater</h3>
+              <img src="./calculator.jpeg" alt="Calculater App" />
+            </Card>
+
+            <Card
+              onClick={() =>
+                window != undefined
+                  ? window.open(
+                      'https://temperature-converter--syedhussainsabe.repl.co/',
+                    )
+                  : ''
+              }
+            >
+              <h3>Temperature Converter</h3>
+              <img src="./temperature.jpeg" alt="Temperature Converter" />
+            </Card>
+
+            <Card
+              onClick={() =>
+                window != undefined
+                  ? window.open(
+                      'https://palindrome-checker--syedhussainsabe.repl.co/',
+                    )
+                  : ''
+              }
+            >
+              <h3>Palindrome Checker</h3>
+              <img src="./palindrome.jpeg" alt="Palindrome Checker" />
             </Card>
           </Flexrow>
         </Flexcol>

@@ -132,7 +132,7 @@ const Menu = ({ showMenuBtn }) => {
                 to="/"
                 spy={true}
                 smooth={true}
-                offset={50}
+                offset={0}
                 duration={500}
               >
                 Home
@@ -151,7 +151,7 @@ const Menu = ({ showMenuBtn }) => {
                 to="about"
                 spy={true}
                 smooth={true}
-                offset={50}
+                offset={0}
                 duration={500}
               >
                 About
@@ -170,7 +170,7 @@ const Menu = ({ showMenuBtn }) => {
                 to="portfolio"
                 spy={true}
                 smooth={true}
-                offset={50}
+                offset={0}
                 duration={500}
               >
                 Portfolio
@@ -189,7 +189,7 @@ const Menu = ({ showMenuBtn }) => {
                 to="resume"
                 spy={true}
                 smooth={true}
-                offset={50}
+                offset={0}
                 duration={500}
               >
                 Resume
@@ -208,7 +208,7 @@ const Menu = ({ showMenuBtn }) => {
                 to="contact"
                 spy={true}
                 smooth={true}
-                offset={50}
+                offset={0}
                 duration={500}
               >
                 Contact

@@ -32,11 +32,14 @@ const ResumeCon = styled.div`
     border-radius: 10px;
     border: none;
     font-family: Times Roman;
+    &:hover {
+      background-color: rgb(2300, 180, 0);
+    }
   }
 
   @media (max-width: 640px) {
     width: 100%;
-    top: 3553px;
+    top: 3888px;
     padding-bottom: 70px;
     margin-top: 10px;
   }

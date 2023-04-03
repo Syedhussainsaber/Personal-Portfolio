@@ -19,7 +19,7 @@ const ContactCon = styled.div`
   }
   @media (max-width: 640px) {
     width: 100%;
-    top: 4150px;
+    top: 4152px;
   }
 `
 const Flexcol = styled.div`

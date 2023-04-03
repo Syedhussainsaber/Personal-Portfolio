@@ -68,6 +68,7 @@ const AboutPara = styled.div`
     p {
       width: 60%;
       line-height: 1.4;
+      text-align: center;
       font-size: 0.9em;
     }
   }

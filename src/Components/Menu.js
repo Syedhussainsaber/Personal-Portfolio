@@ -75,6 +75,7 @@ const Menu = ({ showMenuBtn }) => {
 
       .menu {
         width: 100%;
+        height:100%;
         padding-top: 20px;
         // justify-content: center;
         align-items: center;
@@ -119,7 +120,7 @@ const Menu = ({ showMenuBtn }) => {
       <nav className="menu">
         {/* <Image> */}
         <div className="profile">
-          <img src="./my.png" alt="" />
+          <img src="./my.png" alt="Profile" />
         </div>
         <List>
           <Li

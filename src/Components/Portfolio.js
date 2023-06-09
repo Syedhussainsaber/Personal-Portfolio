@@ -18,7 +18,7 @@ const PortfolioSec = styled.div`
     top: 1462px;
   }
   @media (min-width: 592px) and (max-width: 640px) {
-    top: 1485px;
+    top: 1520px;
   }
 `
 const PortfolioCon = styled.h1`

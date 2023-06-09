@@ -20,10 +20,10 @@ const ContactCon = styled.div`
   }
   @media (max-width: 640px) {
     width: 100%;
-    top: 4190px;
+    top: 4320px;
   }
   @media (min-width: 592px) and (max-width: 640px) {
-    top: 3250px;
+    top: 3360px;
   }
 `
 const Flexcol = styled.div`

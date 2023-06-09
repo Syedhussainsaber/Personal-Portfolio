@@ -51,7 +51,7 @@ const AboutPara = styled.div`
     margin: 10px;
     text-align: center;
     line-height: 1.3;
-    font-family: 'Arial','system-ui';
+    font-family: Helvetica;
   }
   .fade-in-right {
     opacity: 0;

@@ -45,12 +45,13 @@ const AboutPara = styled.div`
   color: white;
   width: 80%;
   padding: 10px;
-  font-family: Debby;
+
   p {
     width: 95%;
     margin: 10px;
     text-align: center;
     line-height: 1.3;
+    font-family: Arial;
   }
   .fade-in-right {
     opacity: 0;

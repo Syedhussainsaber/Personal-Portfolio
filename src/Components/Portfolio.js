@@ -15,10 +15,10 @@ const PortfolioSec = styled.div`
   padding-bottom: 35px;
   @media (max-width: 640px) {
     width: 100%;
-    top: 1520px;
+    top: 1550px;
   }
   @media (min-width: 592px) and (max-width: 640px) {
-    top: 1550px;
+    top: 1600px;
   }
 `
 const PortfolioCon = styled.h1`

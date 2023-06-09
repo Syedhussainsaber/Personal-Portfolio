@@ -39,12 +39,12 @@ const ResumeCon = styled.div`
 
   @media (max-width: 640px) {
     width: 100%;
-    top: 3990px;
+    top: 4100px;
     padding-bottom: 70px;
     margin-top: 10px;
   }
   @media (min-width: 592px) and (max-width: 640px) {
-    top: 3030px;
+    top: 3120px;
   }
 `
 

@@ -9,6 +9,7 @@ const AboutSec = styled.div`
   position: absolute;
   overflow-x: hidden;
   top: 800px;
+  font-family: serif;
   text-align: center;
   width: 86.5vw;
   right: 0px;
@@ -45,13 +46,14 @@ const AboutPara = styled.div`
   color: white;
   width: 80%;
   padding: 10px;
+  font-family: serif;
 
   p {
     width: 95%;
     margin: 10px;
     text-align: center;
-    line-height: 1.3;
-    font-family: Helvetica;
+    line-height: 1.4;
+    font-family: serif;
   }
   .fade-in-right {
     opacity: 0;

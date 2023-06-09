@@ -32,6 +32,9 @@ const Flex = styled.div`
     flex-wrap: wrap;
     justify-content: center;
   }
+  @media (min-width: 500px) {
+    margin-bottom: 60px;
+  }
 `
 const Heading = styled.h2`
   color: gold;
@@ -42,7 +45,7 @@ const AboutPara = styled.div`
   color: white;
   width: 80%;
   padding: 10px;
-  font-family: mono;
+  font-family: system-ui;
   p {
     width: 95%;
     margin: 10px;

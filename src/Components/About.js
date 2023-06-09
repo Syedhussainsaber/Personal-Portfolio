@@ -45,7 +45,7 @@ const AboutPara = styled.div`
   color: white;
   width: 80%;
   padding: 10px;
-  font-family: system-ui;
+  font-family: Debby;
   p {
     width: 95%;
     margin: 10px;

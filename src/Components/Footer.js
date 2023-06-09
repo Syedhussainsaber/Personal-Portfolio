@@ -16,11 +16,11 @@ const StyledFooter = styled.footer`
     text-decoration: none;
   }
   @media (max-width: 640px) {
-    top: 5050px;
+    top: 5230px;
     width: 100%;
   }
   @media (min-width: 592px) and (max-width: 640px) {
-    top: 4000px;
+    top: 4130px;
   }
 `
 const Footer = () => {

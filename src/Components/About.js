@@ -127,6 +127,7 @@ const About = () => {
               {' '}
               Hi! I am a Frontend Developer, Blockchain Developer and a
               Freelancer{' '}
+              I will create a Beautiful responsive Website 🧑🏻‍💻 for your Buisness 
             </p>
           </AboutPara>
           <PicStyle>
